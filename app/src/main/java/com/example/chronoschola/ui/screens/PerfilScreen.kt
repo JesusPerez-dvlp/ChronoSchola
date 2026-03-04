@@ -170,7 +170,7 @@ fun ContenidoPantallaPerfilMaestro(navController: NavController, viewModel: Maes
                                 .size(80.dp)
                                 .clip(CircleShape)
                                 .border(
-                                    width = if (tempAvatarIndex == index) 4.dp else 0.dp,
+                                    width = if (tempAvatarIndex == index) 6.dp else 0.dp,
                                     color = if (tempAvatarIndex == index) MaterialTheme.colorScheme.primary else Color.Transparent,
                                     shape = CircleShape
                                 )
